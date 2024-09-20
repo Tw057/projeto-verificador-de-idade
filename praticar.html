@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <label for="texto">Digite:</label>
+    <input type="text" id="texto">
+    <input type="button" value="Clique" onclick="clicar()">
+    <div id="resultado">Oi</div>
+
+    <script>
+        function clicar() {
+            // Retrieve the input value
+            var digitou = document.getElementById('texto').value;
+            // Get the result div
+            var res = document.getElementById('resultado');
+            // Set the div's innerHTML to the input value
+            res.innerHTML = digitou
+        }
+    </script>
+
+</body>
+</html>

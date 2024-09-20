@@ -1,0 +1,50 @@
+body {
+    background: rgb(26, 26, 228);
+    font: 14pt Arial; 
+    margin: 0; 
+}
+
+header {
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 10px; 
+    width: 80%; 
+    max-width: 350px; 
+    margin: 20px auto; 
+    box-shadow: 5px 5px 10px;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+}
+
+/* Ajuste de imagem */
+img {
+    width: 200px; 
+    height:200px; 
+    display: block; 
+    margin: 10px auto; 
+}
+
+
+@media (max-width: 600px) {
+    body {
+        font-size: 13pt; 
+    }
+
+    section {
+        width: 90%; 
+        padding: 8px;
+    }
+}
+
+@media (max-width: 400px) {
+    section {
+        max-width: 90%; 
+    }
+}
